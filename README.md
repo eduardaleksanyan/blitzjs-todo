@@ -10,6 +10,7 @@ npm install
 ```
 blitz prisma migrate dev
 ```
+
 ```
-blitz prisma migrate dev
+npm run dev
 ```
