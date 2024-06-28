@@ -12,7 +12,7 @@ export function NewTodo() {
   const onSubmit = async (values: any) => {
     try {
       const todo = await createTodoMutation(values);
-      router.push(`/todos/${todo.id}/edit`);
+      router.push(`/todos`);
     } catch (error: any) {
       console.error(error);
       return {
