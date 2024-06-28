@@ -8,7 +8,7 @@ npm install
 ```
 
 ```
-blitz prisma migrate dev
+npx blitz prisma migrate dev
 ```
 
 ```
