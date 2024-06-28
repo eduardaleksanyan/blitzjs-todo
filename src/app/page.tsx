@@ -7,7 +7,7 @@ export default function Home() {
         <div>
           <Link
             href={"/todos"}
-            className="px-4 py-2 bg-blue-100 text-blue-500 hover:underline rounded"
+            className="px-4 py-2 bg-blue-100 text-blue-500 underline hover:no-underline rounded"
           >
             Go to Todo List
           </Link>
