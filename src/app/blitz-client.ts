@@ -1,9 +1,8 @@
-"use client"
-import { AuthClientPlugin } from "@blitzjs/auth"
+'use client'
+
 import { setupBlitzClient } from "@blitzjs/next"
 import { BlitzRpcPlugin } from "@blitzjs/rpc"
-import { authConfig } from "./blitz-auth-config"
 
-export const { withBlitz, BlitzProvider } = setupBlitzClient({
-  plugins: [AuthClientPlugin(authConfig), BlitzRpcPlugin({})],
+export const { BlitzProvider } = setupBlitzClient({
+  plugins: [BlitzRpcPlugin({})],
 })
