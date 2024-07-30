@@ -8,6 +8,7 @@ import TodoItem from "./TodoItem";
 import Pagination from "./Pagination";
 import { ITEMS_PER_PAGE } from "@/src/app/constants/constants";
 
+
 export default function TodosList() {
   const searchParams = useSearchParams()!;
   const page = Number(searchParams.get("page")) || 0;
